@@ -39,7 +39,7 @@ public class StudentController {
     }
 
 
-    //http DELETE Method TO delete a Particular student with ID.
+    //Http DELETE Method to delete a Particular student By ID.
 
     @DeleteMapping ("/{studentID}")
     public void deleteobject(@PathVariable long studentID){
